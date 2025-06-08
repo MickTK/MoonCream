@@ -1,0 +1,27 @@
+# Changelog MoonCream v1.1.0
+
+## General Features
+- The window title now reflects the current operation (e.g., program execution or script editing)
+- Added a configuration file to define custom disk size
+
+## New Cryptography Features
+- Added new tables for: MD5, SHA1, SHA256 (hashing)
+- Added HMAC, AES, RSA, PKC, and Signature cryptography tables
+
+## Compatibility & Customization
+- Introduced new singletons:
+  - `gamepad` for input via controllers
+  - `serial` for serial port communication
+  - `tts` (Text-To-Speech)
+  - `cursor` for cursor style
+- Added support for:
+  - Changing window mode
+  - Borderless window configuration
+  - Keeping the window always on top
+
+## Networking: Transmission Transfer Protocol
+- Added `tcp` singleton to create TCP clients and servers
+- Added `get_local_ip_addresses()` to the `system` singleton
+
+## Other
+- Various minor improvements and bug fixes
